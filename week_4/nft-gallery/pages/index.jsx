@@ -6,7 +6,7 @@ import { NFTCard } from "../components/nftCard"
 
 
 const Home = () => {
-  const [wallet, setWalletAddress] = useState("");
+  const [wallet, setWalletAddress] = useState("0xB4cAaf44a81BC8DF3AE640C1f8aFc37832BBdffB");
   const [collection, setCollectionAddress] = useState("");
   const [NFTs, setNFTs] = useState([]);
   const [fetchForCollection, setFetchForCollection] = useState(false);
